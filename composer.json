@@ -1,0 +1,24 @@
+{
+  "name": "dark-s/aci",
+  "description": "ACI Universal Payments (server-to-server) PHP SDK.",
+  "type": "payment-gateway",
+  "keywords": ["ACI", "ACI Worldwide", "ACI Universal Payments", "composer", "package"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vladimir Stempel",
+      "email": "stempelv@gmail.com"
+    }
+  ],
+  "require": {
+		"php": ">=5.4"
+  },
+	"require-dev": {
+		"phpunit/phpunit": "5.2.*"
+    },
+	"autoload": {
+    "psr-4": {
+        "DarkS\\ACI\\": "src/"
+    }
+  }
+}
